@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  /* background-color: black; */
+  /* color: white; */
+  font-family: sans-serif;
+}
+
+header {
+  margin-bottom: 150px;
+  background-color: #3d4a59;
+  color: white;
+  border-radius: 0 0 50px 50px;
+}
+.name {
+  margin-bottom: 50px;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+.parent li a{
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 6px;
+
+}
+
+.parent li a:hover{
+  border-bottom: 2px solid rgb(199, 85, 85);
+  font-size: 20px;
+}
+.mode{
+  border: 1px solid rgb(172, 80, 80);
+  border-radius: 10px;
+  padding: 4px;
+}
+li {
+  list-style-type: none;
+  font-size: 18px;
+  color: #000;
+
+}
+h1 {
+  text-align: center;
+  padding: 10px 0;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #3d4a59;
+  color: #fff;
+  border-radius: 17px;
+  padding: 20px;
+}
+.my-img{
+  border-radius: 50%;
+  width: 150px;
+  border-top: 2px solid red;
+  border-left: 2px solid rgb(32, 206, 218);
+  border-bottom: 2px solid red;
+  border-right: 2px solid rgb(32, 206, 218);;
+}
+article h5{
+  font-size: 25px;
+  font-family: 'Grandiflora One', serif;
+  font-weight: 750;
+  margin-top: 10ox;
+}
+.paragraph{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.flix {
+  display: flex;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+}
+
+section {
+  margin-bottom: 150px;
+  box-shadow: 5px 5px 25px rgb(169, 157, 157);
+  width: 97%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 13px;
+  padding: 50px;
+}
+
+.right_section,
+.left_section {
+  width: 49%;
+  text-align: center;
+}
+.left_section h3{
+  font-size: 25px;
+  margin: 22px 0;
+
+}
+.left_section p{
+  font-size: 20px;
+  margin: 26px 0;
+}
+.Youtube{
+  border: 2px solid black;
+ background-color: rgb(224, 121, 121);
+ margin-top: 50px;
+ padding: 8px 16px;
+ color: #fff;
+ border-radius: 7px;
+ text-decoration: none;
+}
+.Facebook{
+ background-color: rgb(86, 116, 206);
+ border: 2px solid black;
+ margin-top: 50px;
+ padding: 8px 16px;
+ color: #fff;
+ border-radius: 7px;
+ text-decoration: none;
+}
+.about{
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+.desinge{
+  font-family: sans-serif;
+  background-color: #3d4a59;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+span{
+  color: rgb(184, 118, 118);
+  border: .5px solid red;
+  border-radius: 5px;
+ padding: 5px;
+}
+span:hover{
+  color: #fff;
+  cursor: pointer;
+}
+h1:hover{
+  cursor: pointer;
+}
